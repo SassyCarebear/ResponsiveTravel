@@ -68,7 +68,6 @@ header h3 ul{
   text-decoration: underline;
   font-size: 2.7em;
   padding: 20px  0px 7px 0px;
-  font-family:
 }
 .columns p{
   clear: both;
@@ -76,7 +75,7 @@ header h3 ul{
 .col1, .col2, .col3, .col4{
   text-align:center;
   display: block;
-  width: 95%
+  width: 95%;
   padding: 50px 25px 100px 25px;
   float: left;
   margin-right: 2%;
