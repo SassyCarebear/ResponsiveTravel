@@ -1,0 +1,197 @@
+/*
+    Name: Cara Jones
+    Date: July 6, 2022
+    Assignment: Responsive Travel
+    File: styles.css
+
+*/
+
+html{
+  background-color: rgba(51, 51, 51, .13);
+  font-family: Optima, 'Times New Roman', 'Ariel';
+  box-sizing: border-box;
+  text-align: center;
+}
+/*--------------------------------------- Header----------------------------*/
+header{
+  background-image: url(bridge-alexandria.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  height: 30%;
+  opacity: .75;
+  padding-bottom: 3%;
+  margin-bottom: 45px;
+}
+header h1{
+  padding-top: 100px;
+  color: White;
+  font-variant: small-caps;
+}
+header h2{
+  color: white;
+  opacity: .85;
+}
+header h1, header h2{
+  font-size: 2.5em;
+  font-weight: bolder;
+
+}
+header h3{
+  background-color: rgba(112, 219, 219, 0.5);
+  margin: 20px 40px 20px 40px;
+  color: rgb(51, 51, 51);
+  font-size: 1em;
+  font-weight: bold;
+  border: 1.3px rgb(51, 51, 51) solid;
+  border-radius: 60%;
+}
+header h3 ul li{
+  list-style: none;
+  padding: 2px 10px 2px 10px;
+}
+header h3 ul{
+  padding: 4px 0px 4px 0px;
+}
+/*------------------------------------- Columns -----------------------------*/
+.columns{
+  display:block;
+  padding-left: 25px;
+  background-color: rgba(112, 219, 219, .4);
+  border: 2.5px grey solid;
+  color: rgb(51, 51, 51);
+
+}
+.columns h1, article h1{
+  text-decoration: underline;
+  font-size: 2.7em;
+  padding: 20px  0px 7px 0px;
+  font-family:
+}
+.columns p{
+  clear: both;
+}
+.col1, .col2, .col3, .col4{
+  text-align:center;
+  display: block;
+  width: 95%
+  padding: 50px 25px 100px 25px;
+  float: left;
+  margin-right: 2%;
+  margin-left:25%;
+}
+.col1 h2, .col2 h2, .col4 h2{
+  font-size: 1em;
+  font-weight: bold;
+}
+.col3 h2{
+  font-size: .9em;
+  margin-left: 1%;
+  font-weight: bold;
+}
+
+.columns img{
+  width: 225px;
+  height: 200px;
+}
+/*----------------------------------------- Paragraphs -----------------------*/
+article {
+  opacity: .85;
+}
+article p{
+  padding: 0px 25px 0px 25px;
+}
+#citation{
+  position: relative;
+  bottom: 25px;
+  float: right;
+  margin-right: 80px;
+  font-size: .8em;
+  line-height: .9;
+}
+
+/*------------------------------------------ Footer -------------------------*/
+ footer{
+   clear: both;
+   background-color:rgb(112, 219, 219, .6);
+   padding: 0px 0px 0px 0px;
+   font-family: times;
+ }
+
+/*-------------------------------------- Responsive Actions ------------------*/
+@media screen and (min-width: 700px) {
+      .columns img{
+        width: 275px;
+      }
+      .col1, .col2, .col3, .col4{
+        margin-left:30px;
+      }
+      article {
+        float:right;
+      }
+      article p {
+        margin: 0px 60px 0px 60px;
+      }
+      #citation{
+        bottom: -10px;
+        padding-bottom: 80px;
+      }
+}
+
+
+@media screen and (min-width: 890px){
+      .columns img{
+        width: 175px;
+        height: 160px;
+      }
+      .columns{
+        float: left;
+        width: 48%;
+        margin:0px 0px 50px 5px;
+      }
+     .col2, .col3, .col4{
+        padding: 20px 2.5px 20px 2.5px;
+        margin-left: .5px;
+      }
+      .col1{
+        padding: 20px 15px 20px 20px;
+        margin-left: .5px;
+      }
+
+      article{
+        float: right;
+        width: 48%;
+      }
+      article p {
+        margin: 0px 20px 0px 20px;
+      }
+      #citation{
+        bottom: -10px;
+        padding-bottom: 80px;
+      }
+}
+
+
+
+@media screen and (min-width: 1199px) {
+      .columns{
+        margin-left: 50px;
+        width: 40%;
+        background-color: rgba(112, 219, 219, .4);
+        border: 2.5px grey solid;
+        color: rgb(51, 51, 51);
+      }
+      .col1, .col3{
+        margin-left: 2%;
+      }
+      article{
+        width: 50%;
+        background-color: rgba(112, 219, 219, .4);
+        border: 2.5px grey solid;
+        color: rgb(51, 51, 51);
+      }
+
+
+}
